@@ -1,1 +1,204 @@
-1
+*{
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+
+.header{
+    background-image: url("/img/header_cover.png");
+    height: 50rem;
+    z-index: -1;
+}
+
+.header-contaner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: auto;
+    width: 70%;
+}
+
+.main-text{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500px;
+    line-height: normal;
+    margin-top: 12% ;
+}
+
+.sub-text{
+    text-align: center;
+}
+.frist-p{
+    font-weight: bold;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500px;
+    color: white;
+    font-size: x-large;
+    margin: 1% 0% 0%;
+}
+.second-p{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+.getstart{
+    text-align: center;
+}
+.adrress{
+    background-color: rgb(27, 27, 27);
+    width: 30rem;
+    height: 3.4rem;
+    padding-left: 15px ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.getbutton{
+    background-color: #c11119;
+    color: white;
+    border: none;
+    border-color: #c11119;
+    height: 3.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    padding: 5px;
+    width: 14rem;
+    margin: 0%;
+}
+.getbutton:hover{
+    background-color: #af1a21;
+}
+.main{
+    /*border-radius: 80% ;*/
+    border-top-left-radius:32% ;
+    border-top-right-radius:32% ;
+    /*border: solid  25px  ; */
+    z-index: 0;
+    background-color: black;
+    height: 500px;
+    margin-top: -5.4rem;
+    padding-top: 4rem;
+}
+.default-ltr-cache-1f97ztc::before {
+    content: '';
+    position: absolute;
+    
+    top: 44rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    height: 250px;
+    width: 95%;
+    margin: auto;
+    margin-top: -.25rem;
+    border-radius: 50%;
+    border-top:solid 18px;
+    border-top-color: crimson;
+}
+.contener2{
+    margin: auto;
+    width: 70%;
+}
+.tittle-2{
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif ;
+    color: white;
+}
+.selectors{
+    position: relative;
+}
+.selectors select{
+    background-color: black;
+    color: white;
+    
+}
+.images{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top:-400px ;
+}
+.images2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.tittle-3{
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif ;
+    color: white;
+    margin-top: 50px;
+}
+.cards-contaner{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+.card{
+    background-color: #192145;
+    width: 15%;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+
+}
+.card h3{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.card p{
+    padding-bottom: 50px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.faq h1{
+    background-color: rgb(67, 67, 67);
+    width: 72%;
+    height: 30px;
+    padding: 20px;
+    margin: auto;
+    color:white;
+    margin-top: 10px;
+}
+.footer-contaner{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+.footer-contaner ul{
+    list-style: none;
+}
+.footer-contaner ul li {
+    margin-top: 10px;
+    font-size: large;
+}
+.selec select{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.selec button{
+    background-color: #c11119;
+    color: white;
+    border: none;
+    border-color: #c11119;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    font-size: large;
+    margin: 0%;
+}
